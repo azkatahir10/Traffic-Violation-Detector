@@ -6,8 +6,7 @@ An end-to-end Computer Vision system built with YOLOv8 to detect vehicles and tr
 
 This project addresses the problem of automated seatbelt-compliance detection in vehicles, with the system trained to detect three object classes, vehicle, seatbelt, and no_seatbelt, from traffic camera imagery. This problem is useful because seatbelt non-compliance is a major contributor to road traffic injuries and fatalities, and manual monitoring for compliance is not scalable across large road networks; an automated system makes safety enforcement more consistent and efficient. It can be applied in traffic surveillance setups at intersections and highways, automated violation-monitoring systems for law enforcement, fleet and ride-hailing driver compliance checks, and broader smart-city road-safety infrastructure. The final output of the system is a set of annotated images or video frames, where each detected vehicle and occupant is marked with a bounding box, a predicted class label (seatbelt or no_seatbelt), and a confidence score.
 
-## 🛠️ Project Structure
-
+## Folder Structure
 Traffic-Violation-Detector/
 ├── dataset/
 │   ├── images/
