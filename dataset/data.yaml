@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['helmet', 'mobile_calling', 'mobile_watching', 'no_helmet', 'no_seatbelt', 'seatbelt', 'vehicle']
+
+roboflow:
+  workspace: azka-tahir
+  project: violation-atfhu-agqyn
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/azka-tahir/violation-atfhu-agqyn/dataset/1
