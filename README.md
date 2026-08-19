@@ -1,9 +1,5 @@
-Here is a clean, comprehensive `README.md` file tailored specifically for your GitHub repository and Google Drive submission. It includes badging, clear setup instructions, your updated report, and repository structure.
-
----
-
 ```markdown
-# 🚗 Computer Vision Object Detection & Violation Identification System Using YOLOv8
+#Computer Vision Object Detection & Violation Identification System Using YOLOv8
 
 An end-to-end Computer Vision system built with YOLOv8 to detect vehicles and traffic safety violations (such as seatbelt/no-seatbelt compliance and helmet usage) in real-world camera feeds[cite: 1]. Developed as part of the AIRI Team PITB AI Internship Task 1[cite: 1].
 
@@ -127,14 +123,14 @@ Inference was run on unseen test images using `best.pt` at a confidence threshol
 
 **Key Findings:** Occluded objects and small instances contributed to false negatives[cite: 1]. Adding additional training samples captured under varied lighting conditions will resolve misclassifications[cite: 1].
 
-### 8. What I Learned[cite: 1]
+### 8. What I Learned
 * Executed the complete end-to-end lifecycle of a real-world Computer Vision project[cite: 1].
 * Learned manual annotation techniques and normalized YOLO format structures[cite: 1].
 * Fine-tuned pretrained YOLOv8 models on GPU hardware using Ultralytics[cite: 1].
 * Evaluated models using Precision, Recall, mAP scores, and confusion matrices[cite: 1].
 * Analyzed failure modes to outline dataset quality improvements[cite: 1].
 
-### 9. Future Improvements[cite: 1]
+### 9. Future Improvements
 * Expand the dataset to 500+ images for greater class balance[cite: 1].
 * Experiment with larger YOLO model variants (e.g., YOLOv8s or YOLOv8m)[cite: 1].
 * Deploy the model as an interactive web demo using Streamlit or FastAPI[cite: 1].
